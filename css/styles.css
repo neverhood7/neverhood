@@ -1,0 +1,192 @@
+*{
+margin: 0;
+padding: 0;
+border: 0px;
+}
+html {
+  overflow-x: hidden; }
+
+body {
+text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Barlow', sans-serif;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px;
+  margin-left: 2%;
+}
+
+p{
+  color: #2e4150;
+}
+/* title */
+
+  .lightBlue-section{
+    background-color: #e4f8f7;
+    text-align: center;
+    padding: 0 100px;
+    padding-bottom: 5%;
+  }
+
+  .first-page-main{
+    padding-top: 30px;
+  }
+
+  .logo{
+      width: 100px; 
+      margin-left: 2%;
+      padding-top: 5px;
+      
+  }
+
+/* title-navbar */
+
+  #navigationz {
+      background-color:  #e4f8f7!important;
+      margin-right: 2%;
+  }
+
+  .nav-item{
+    padding: 0 20px;
+    font-size: 1.1rem;
+    }
+
+/* title-art-text */
+
+  .first-page-art{
+      width: 610px;
+      position: relative;
+      margin-right: 2%;
+  }
+
+  .title-h1{
+    font-family: 'Barlow', sans-serif;
+      font-size: 3.5rem;
+      line-height: 1.5;
+      color: #162029;
+    }
+  
+  .title-h2{
+    font-family: 'Barlow', sans-serif;
+      font-size: 1.5rem;
+      line-height: 1.5;
+      color: #2e404f;
+    }
+
+/* features */
+
+  #dolphin {
+    background-color: #2f4150;
+    text-align: center;
+    padding: 9% 12%;
+  }
+
+  .dolphin-images{
+    width: 80px;
+    margin: 10px;
+  }
+
+  .dolphin-text-box{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    padding: 15px;
+    color: #60d3f2;
+  }
+
+/* CAROUSEL */
+
+#carousel {
+  background-color: #60d3f2;
+  text-align: center;
+  padding: 20px 100px;
+
+}
+
+#testimonial-carousel{
+  padding: 0px;
+}
+
+.carousel-image{
+  height: 400px ;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.testimonial-text{
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+.first-carousel{
+  background-color: salmon;
+}
+
+/* Cards Section */
+
+#cards {
+  font-family: 'Barlow', sans-serif;
+  color: #60d3f2;
+  text-align: center;
+  padding: 30px 150px;
+  margin: 0;
+  background-color: #2e4150;
+}
+
+#cards h1{
+  text-align: center;
+}
+
+.card-header h3{
+  color: #2f4150;
+}
+
+.section-heading{
+margin: 0;
+padding:20px;
+}
+
+.price-text {
+  text-align: center;
+  color: #162029;
+  font-family: 'Barlow', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+  width: 300rem;
+}
+
+.social-icon:hover{
+  color:#ff4d4d;
+  
+}
+
+@media (max-width: 1028px) {
+
+
+  #title {
+    text-align: center;
+  }
+
+  .lightBlue-section{
+    padding: 20px 20px;
+  }
+
+
+}
+
